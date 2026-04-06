@@ -1,0 +1,388 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Max",
+      "image":"https://plus.unsplash.com/premium_photo-1722859221349-26353eae4744?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVsbGRvZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "race": "Bulldog",
+      "phone":"19989937809",
+      "email":"example@mail.com",
+      "birth":"2015-04-01",
+      "size":"m",
+      "sex":"m",
+      "owner":"João Silva",
+      "color":"Branco",
+      "weight":"5.2",
+      "neutered":"1",
+      "temperament":"Docil",
+      "required": [
+        { "nome": "Plv", "data": "2024-10-15"},
+        { "nome": "Rv", "data": "2025-10-20"},
+        { "nome": "Cp", "data": ""}
+      ],
+      "observations": {
+        "vaccines": ["Gripe Canina (Tosse dos Canis)", "Giárdia"],
+        "allergies": null,
+        "parasites": "Aplicação em 15/10/2025",
+        "other": "Animal apresenta ótima socialização em grupo."
+      }
+    },
+    {
+      "id": "2",
+      "name": "Luna",
+      "image": "https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "race": "Labrador",
+      "phone": "19991234567",
+      "email": "example2@mail.com",
+      "birth": "2019-09-12",
+      "size": "l",
+      "sex": "f",
+      "owner": "Maria Oliveira",
+      "color": "Preto",
+      "weight": "18.4",
+      "neutered": "1",
+      "temperament": "Brincalhona",
+      "required": [
+        { "nome": "Plv", "data": "2025-11-02" },
+        { "nome": "Rv", "data": "" },
+        { "nome": "Cp", "data": "2025-11-10" }
+      ],
+      "observations": {
+        "vaccines": ["V10", "Antirrábica"],
+        "allergies": ["Carne bovina"],
+        "parasites": "Aplicação em 02/11/2025",
+        "other": "Gosta de brincar com outros cães e correr."
+      }
+    },
+    {
+    "id": "3",
+    "name": "Thor",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500&auto=format&fit=crop&q=60",
+    "race": "Golden Retriever",
+    "phone": "19987654321",
+    "email": "example3@mail.com",
+    "birth": "2018-06-03",
+    "size": "l",
+    "sex": "m",
+    "owner": "Carlos Mendes",
+    "color": "Dourado",
+    "weight": "25.7",
+    "neutered": "1",
+    "temperament": "Amigável",
+    "required": [
+      { "nome": "Plv", "data": "2025-09-15" },
+      { "nome": "Rv", "data": "" },
+      { "nome": "Cp", "data": "2025-09-20" }
+    ],
+    "observations": {
+      "vaccines": ["V10", "Antirrábica"],
+      "allergies": null,
+      "parasites": "Aplicação em 15/09/2025",
+      "other": "Muito sociável com pessoas."
+    }
+  },
+  {
+    "id": "4",
+    "name": "Bella",
+    "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=500&auto=format&fit=crop&q=60",
+    "race": "Poodle",
+    "phone": "19981112233",
+    "email": "example4@mail.com",
+    "birth": "2020-01-18",
+    "size": "s",
+    "sex": "f",
+    "owner": "Fernanda Souza",
+    "color": "Branco",
+    "weight": "4.1",
+    "neutered": "1",
+    "temperament": "Atenta",
+    "required": [
+      { "nome": "Plv", "data": "" },
+      { "nome": "Rv", "data": "2025-12-01" },
+      { "nome": "Cp", "data": "" }
+    ],
+    "observations": {
+      "vaccines": ["Giárdia"],
+      "allergies": ["Frango"],
+      "parasites": "Aplicação em 01/12/2025",
+      "other": "Prefere ambientes tranquilos."
+    }
+  },
+  {
+    "id": "5",
+    "name": "Rocky",
+    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=500&auto=format&fit=crop&q=60",
+    "race": "Boxer",
+    "phone": "19983334455",
+    "email": "example5@mail.com",
+    "birth": "2017-11-07",
+    "size": "g",
+    "sex": "m",
+    "owner": "Lucas Pereira",
+    "color": "Marrom",
+    "weight": "29.3",
+    "neutered": "0",
+    "temperament": "Protetor",
+    "required": [
+      { "nome": "Plv", "data": "2025-08-10" },
+      { "nome": "Rv", "data": "2025-08-15" },
+      { "nome": "Cp", "data": "" }
+    ],
+    "observations": {
+      "vaccines": ["V8"],
+      "allergies": null,
+      "parasites": "Aplicação em 10/08/2025",
+      "other": "Precisa de bastante exercício."
+    }
+  },
+  {
+    "id": "6",
+    "name": "Nina",
+    "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=500&auto=format&fit=crop&q=60",
+    "race": "Shih Tzu",
+    "phone": "19985556677",
+    "email": "example6@mail.com",
+    "birth": "2021-03-25",
+    "size": "s",
+    "sex": "f",
+    "owner": "Patricia Lima",
+    "color": "Caramelo",
+    "weight": "3.8",
+    "neutered": "1",
+    "temperament": "Calma",
+    "required": [
+      { "nome": "Plv", "data": "" },
+      { "nome": "Rv", "data": "" },
+      { "nome": "Cp", "data": "2025-10-30" }
+    ],
+    "observations": {
+      "vaccines": ["Antirrábica"],
+      "allergies": null,
+      "parasites": "Aplicação em 30/10/2025",
+      "other": "Gosta de colo."
+    }
+  },
+  {
+    "id": "7",
+    "name": "Zeus",
+    "image": "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=500&auto=format&fit=crop&q=60",
+    "race": "Pastor Alemão",
+    "phone": "19987778899",
+    "email": "example7@mail.com",
+    "birth": "2016-12-12",
+    "size": "g",
+    "sex": "m",
+    "owner": "Ricardo Alves",
+    "color": "Preto e Marrom",
+    "weight": "32.5",
+    "neutered": "1",
+    "temperament": "Leal",
+    "required": [
+      { "nome": "Plv", "data": "2025-07-05" },
+      { "nome": "Rv", "data": "" },
+      { "nome": "Cp", "data": "2025-07-10" }
+    ],
+    "observations": {
+      "vaccines": ["V10"],
+      "allergies": ["Poeira"],
+      "parasites": "Aplicação em 05/07/2025",
+      "other": "Treinado para obediência básica."
+    }
+  },
+  {
+    "id": "8",
+    "name": "Mel",
+    "image": "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=500&auto=format&fit=crop&q=60",
+    "race": "Beagle",
+    "phone": "19980001122",
+    "email": "example8@mail.com",
+    "birth": "2019-05-14",
+    "size": "m",
+    "sex": "f",
+    "owner": "Juliana Costa",
+    "color": "Tricolor",
+    "weight": "10.6",
+    "neutered": "0",
+    "temperament": "Curiosa",
+    "required": [
+      { "nome": "Plv", "data": "" },
+      { "nome": "Rv", "data": "2025-09-01" },
+      { "nome": "Cp", "data": "" }
+    ],
+    "observations": {
+      "vaccines": ["Giárdia", "Antirrábica"],
+      "allergies": null,
+      "parasites": "Aplicação em 01/09/2025",
+      "other": "Adora farejar o ambiente."
+    }
+  },
+  {
+    "id": "9",
+    "name": "Toby",
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=500&auto=format&fit=crop&q=60",
+    "race": "Dachshund",
+    "phone": "19982223344",
+    "email": "example9@mail.com",
+    "birth": "2018-08-08",
+    "size": "m",
+    "sex": "m",
+    "owner": "Eduardo Santos",
+    "color": "Marrom",
+    "weight": "7.9",
+    "neutered": "1",
+    "temperament": "Esperto",
+    "required": [
+      { "nome": "Plv", "data": "2025-11-12" },
+      { "nome": "Rv", "data": "" },
+      { "nome": "Cp", "data": "" }
+    ],
+    "observations": {
+      "vaccines": ["V8"],
+      "allergies": null,
+      "parasites": "Aplicação em 12/11/2025",
+      "other": "Gosta de cavar."
+    }
+  },
+  {
+    "id": "10",
+    "name": "Lola",
+    "image": "https://images.unsplash.com/photo-1525253086316-d0c936c814f8?w=500&auto=format&fit=crop&q=60",
+    "race": "Border Collie",
+    "phone": "19986667788",
+    "email": "example10@mail.com",
+    "birth": "2022-02-02",
+    "size": "l",
+    "sex": "f",
+    "owner": "Marcos Teixeira",
+    "color": "Preto e Branco",
+    "weight": "16.2",
+    "neutered": "0",
+    "temperament": "Muito ativa",
+    "required": [
+      { "nome": "Plv", "data": "" },
+      { "nome": "Rv", "data": "2025-10-18" },
+      { "nome": "Cp", "data": "2025-10-22" }
+    ],
+    "observations": {
+      "vaccines": ["V10", "Giárdia"],
+      "allergies": ["Milho"],
+      "parasites": "Aplicação em 18/10/2025",
+      "other": "Precisa de atividades diárias."
+    }
+  }
+    
+  ],
+  "services": [
+    { "id": "1", "id_dog": "1", "price": 80, "date": "2026-03-02", "name": "banho" },
+    { "id": "2", "id_dog": "2", "price": 120, "date": "2026-03-03", "name": "tosa" },
+    { "id": "3", "id_dog": "3", "price": 150, "date": "2026-03-04", "name": "adestramento" },
+    { "id": "4", "id_dog": "4", "price": 250, "date": "2026-03-05", "name": "hotel" },
+    { "id": "5", "id_dog": "5", "price": 95, "date": "2026-03-06", "name": "vacina (v10)" },
+    { "id": "6", "id_dog": "6", "price": 90, "date": "2026-03-07", "name": "vacina (v8)" },
+    { "id": "7", "id_dog": "7", "price": 100, "date": "2026-03-08", "name": "vacina (raiva)" },
+    { "id": "8", "id_dog": "8", "price": 85, "date": "2026-03-09", "name": "banho" },
+    { "id": "9", "id_dog": "9", "price": 130, "date": "2026-03-10", "name": "tosa" },
+    { "id": "10", "id_dog": "10", "price": 160, "date": "2026-03-11", "name": "adestramento" },
+
+    { "id": "11", "id_dog": "1", "price": 260, "date": "2026-03-12", "name": "hotel" },
+    { "id": "12", "id_dog": "2", "price": 95, "date": "2026-03-13", "name": "vacina (v10)" },
+    { "id": "13", "id_dog": "3", "price": 88, "date": "2026-03-14", "name": "banho" },
+    { "id": "14", "id_dog": "4", "price": 125, "date": "2026-03-15", "name": "tosa" },
+    { "id": "15", "id_dog": "5", "price": 155, "date": "2026-03-16", "name": "adestramento" },
+    { "id": "16", "id_dog": "6", "price": 240, "date": "2026-03-17", "name": "hotel" },
+    { "id": "17", "id_dog": "7", "price": 100, "date": "2026-03-18", "name": "vacina (raiva)" },
+    { "id": "18", "id_dog": "8", "price": 92, "date": "2026-03-19", "name": "vacina (v8)" },
+    { "id": "19", "id_dog": "9", "price": 82, "date": "2026-03-20", "name": "banho" },
+    { "id": "20", "id_dog": "10", "price": 135, "date": "2026-03-21", "name": "tosa" },
+
+    { "id": "21", "id_dog": "1", "price": 150, "date": "2026-03-22", "name": "adestramento" },
+    { "id": "22", "id_dog": "2", "price": 255, "date": "2026-03-23", "name": "hotel" },
+    { "id": "23", "id_dog": "3", "price": 97, "date": "2026-03-24", "name": "vacina (v10)" },
+    { "id": "24", "id_dog": "4", "price": 89, "date": "2026-03-25", "name": "banho" },
+    { "id": "25", "id_dog": "5", "price": 122, "date": "2026-03-26", "name": "tosa" },
+    { "id": "26", "id_dog": "6", "price": 158, "date": "2026-03-27", "name": "adestramento" },
+    { "id": "27", "id_dog": "7", "price": 245, "date": "2026-03-28", "name": "hotel" },
+    { "id": "28", "id_dog": "8", "price": 91, "date": "2026-03-29", "name": "vacina (v8)" },
+    { "id": "29", "id_dog": "9", "price": 103, "date": "2026-03-30", "name": "vacina (raiva)" },
+    { "id": "30", "id_dog": "10", "price": 84, "date": "2026-03-31", "name": "banho" },
+
+    { "id": "31", "id_dog": "1", "price": 128, "date": "2026-04-01", "name": "tosa" },
+    { "id": "32", "id_dog": "2", "price": 150, "date": "2026-04-02", "name": "adestramento" },
+    { "id": "33", "id_dog": "3", "price": 250, "date": "2026-04-03", "name": "hotel" },
+    { "id": "34", "id_dog": "4", "price": 96, "date": "2026-04-04", "name": "vacina (v10)" },
+    { "id": "35", "id_dog": "5", "price": 87, "date": "2026-04-05", "name": "banho" },
+    { "id": "36", "id_dog": "6", "price": 120, "date": "2026-04-06", "name": "tosa" },
+    { "id": "37", "id_dog": "7", "price": 152, "date": "2026-04-07", "name": "adestramento" },
+    { "id": "38", "id_dog": "8", "price": 260, "date": "2026-04-08", "name": "hotel" },
+    { "id": "39", "id_dog": "9", "price": 94, "date": "2026-04-09", "name": "vacina (v8)" },
+    { "id": "40", "id_dog": "10", "price": 101, "date": "2026-04-10", "name": "vacina (raiva)" },
+
+    { "id": "41", "id_dog": "1", "price": 83, "date": "2026-04-11", "name": "banho" },
+    { "id": "42", "id_dog": "2", "price": 130, "date": "2026-04-12", "name": "tosa" },
+    { "id": "43", "id_dog": "3", "price": 160, "date": "2026-04-13", "name": "adestramento" },
+    { "id": "44", "id_dog": "4", "price": 255, "date": "2026-04-14", "name": "hotel" },
+    { "id": "45", "id_dog": "5", "price": 97, "date": "2026-04-15", "name": "vacina (v10)" },
+    { "id": "46", "id_dog": "6", "price": 88, "date": "2026-04-16", "name": "banho" },
+    { "id": "47", "id_dog": "7", "price": 123, "date": "2026-04-17", "name": "tosa" },
+    { "id": "48", "id_dog": "8", "price": 150, "date": "2026-04-18", "name": "adestramento" },
+    { "id": "49", "id_dog": "9", "price": 240, "date": "2026-04-19", "name": "hotel" },
+    { "id": "50", "id_dog": "10", "price": 100, "date": "2026-04-20", "name": "vacina (raiva)" },
+
+    { "id": "51", "id_dog": "1", "price": 90, "date": "2026-04-21", "name": "vacina (v8)" },
+    { "id": "52", "id_dog": "2", "price": 82, "date": "2026-04-22", "name": "banho" },
+    { "id": "53", "id_dog": "3", "price": 125, "date": "2026-04-23", "name": "tosa" },
+    { "id": "54", "id_dog": "4", "price": 155, "date": "2026-04-24", "name": "adestramento" },
+    { "id": "55", "id_dog": "5", "price": 260, "date": "2026-04-25", "name": "hotel" },
+    { "id": "56", "id_dog": "6", "price": 95, "date": "2026-04-26", "name": "vacina (v10)" },
+    { "id": "57", "id_dog": "7", "price": 84, "date": "2026-04-27", "name": "banho" },
+    { "id": "58", "id_dog": "8", "price": 128, "date": "2026-04-28", "name": "tosa" },
+    { "id": "59", "id_dog": "9", "price": 150, "date": "2026-04-29", "name": "adestramento" },
+    { "id": "60", "id_dog": "10", "price": 250, "date": "2026-04-30", "name": "hotel" },
+
+    { "id": "61", "id_dog": "1", "price": 96, "date": "2026-05-01", "name": "vacina (v10)" },
+
+    { "id": "62", "id_dog": "2", "price": 88, "date": "2026-03-05", "name": "banho" },
+    { "id": "63", "id_dog": "3", "price": 120, "date": "2026-03-08", "name": "tosa" },
+    { "id": "64", "id_dog": "4", "price": 150, "date": "2026-03-12", "name": "adestramento" },
+    { "id": "65", "id_dog": "5", "price": 245, "date": "2026-03-18", "name": "hotel" },
+    { "id": "66", "id_dog": "6", "price": 97, "date": "2026-03-22", "name": "vacina (v10)" },
+    { "id": "67", "id_dog": "7", "price": 83, "date": "2026-03-24", "name": "banho" },
+    { "id": "68", "id_dog": "8", "price": 130, "date": "2026-03-28", "name": "tosa" },
+    { "id": "69", "id_dog": "9", "price": 158, "date": "2026-04-02", "name": "adestramento" },
+    { "id": "70", "id_dog": "10", "price": 260, "date": "2026-04-04", "name": "hotel" },
+
+    { "id": "71", "id_dog": "1", "price": 95, "date": "2026-04-06", "name": "vacina (v8)" },
+    { "id": "72", "id_dog": "2", "price": 85, "date": "2026-04-08", "name": "banho" },
+    { "id": "73", "id_dog": "3", "price": 135, "date": "2026-04-10", "name": "tosa" },
+    { "id": "74", "id_dog": "4", "price": 160, "date": "2026-04-12", "name": "adestramento" },
+    { "id": "75", "id_dog": "5", "price": 255, "date": "2026-04-14", "name": "hotel" },
+    { "id": "76", "id_dog": "6", "price": 101, "date": "2026-04-16", "name": "vacina (raiva)" },
+    { "id": "77", "id_dog": "7", "price": 89, "date": "2026-04-18", "name": "banho" },
+    { "id": "78", "id_dog": "8", "price": 122, "date": "2026-04-20", "name": "tosa" },
+    { "id": "79", "id_dog": "9", "price": 152, "date": "2026-04-22", "name": "adestramento" },
+    { "id": "80", "id_dog": "10", "price": 245, "date": "2026-04-24", "name": "hotel" },
+
+    { "id": "81", "id_dog": "1", "price": 92, "date": "2026-04-26", "name": "vacina (v10)" },
+    { "id": "82", "id_dog": "2", "price": 84, "date": "2026-04-27", "name": "banho" },
+    { "id": "83", "id_dog": "3", "price": 128, "date": "2026-04-28", "name": "tosa" },
+    { "id": "84", "id_dog": "4", "price": 150, "date": "2026-04-29", "name": "adestramento" },
+    { "id": "85", "id_dog": "5", "price": 260, "date": "2026-04-30", "name": "hotel" },
+    { "id": "86", "id_dog": "6", "price": 96, "date": "2026-05-01", "name": "vacina (v8)" },
+
+    { "id": "87", "id_dog": "7", "price": 87, "date": "2026-03-09", "name": "banho" },
+    { "id": "88", "id_dog": "8", "price": 123, "date": "2026-03-15", "name": "tosa" },
+    { "id": "89", "id_dog": "9", "price": 155, "date": "2026-03-21", "name": "adestramento" },
+    { "id": "90", "id_dog": "10", "price": 250, "date": "2026-03-27", "name": "hotel" },
+
+    { "id": "91", "id_dog": "1", "price": 97, "date": "2026-04-03", "name": "vacina (v10)" },
+    { "id": "92", "id_dog": "2", "price": 82, "date": "2026-04-07", "name": "banho" },
+    { "id": "93", "id_dog": "3", "price": 135, "date": "2026-04-11", "name": "tosa" },
+    { "id": "94", "id_dog": "4", "price": 150, "date": "2026-04-15", "name": "adestramento" },
+    { "id": "95", "id_dog": "5", "price": 255, "date": "2026-04-19", "name": "hotel" },
+    { "id": "96", "id_dog": "6", "price": 101, "date": "2026-04-23", "name": "vacina (raiva)" },
+    { "id": "97", "id_dog": "7", "price": 88, "date": "2026-04-25", "name": "banho" },
+    { "id": "98", "id_dog": "8", "price": 120, "date": "2026-04-27", "name": "tosa" },
+    { "id": "99", "id_dog": "9", "price": 160, "date": "2026-04-29", "name": "adestramento" },
+    { "id": "100", "id_dog": "10", "price": 245, "date": "2026-05-01", "name": "hotel" }
+  ]
+}

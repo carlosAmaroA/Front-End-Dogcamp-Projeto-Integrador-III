@@ -1,21 +1,25 @@
-# React + TypeScript + Vite + shadcn/ui
+# 🐾 Front-End-Dogcamp-Projeto-Integrador-III
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Este é o repositório oficial do projeto **Dogcamp**, desenvolvido como parte do **Projeto Integrador III**. A aplicação é focada em uma interface moderna, responsiva e robusta, utilizando as melhores práticas de desenvolvimento web com foco em performance e manutenibilidade.
 
-## Adding components
+---
 
-To add components to your app, run the following command:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npx shadcn@latest add button
-```
+O projeto foi construído utilizando um ecossistema de alto desempenho:
 
-This will place the ui components in the `src/components` directory.
+* **[React](https://reactjs.org/):** Biblioteca para construção da interface de usuário.
+* **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática para maior segurança e produtividade.
+* **[Vite](https://vitejs.dev/):** Ferramenta de build otimizada para um desenvolvimento rápido.
+* **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário para design ágil.
+* **[shadcn/ui](https://ui.shadcn.com/):** Biblioteca de componentes acessíveis e customizáveis.
 
-## Using components
+---
 
-To use the components in your app, import them as follows:
+## 🛠️ Como Executar o Projeto
 
-```tsx
-import { Button } from "@/components/ui/button"
-```
+Para rodar este projeto em sua máquina local, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/carlosAmaroA/Front-End-Dogcamp-Projeto-Integrador-III.git](https://github.com/carlosAmaroA/Front-End-Dogcamp-Projeto-Integrador-III.git)
