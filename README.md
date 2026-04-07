@@ -22,4 +22,4 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/carlosAmaroA/Front-End-Dogcamp-Projeto-Integrador-III.git](https://github.com/carlosAmaroA/Front-End-Dogcamp-Projeto-Integrador-III.git)
+   git clone git@github.com:carlosAmaroA/Front-End-Dogcamp-Projeto-Integrador-III.git
